@@ -21,6 +21,8 @@ echo $OUT
 #UNCOMMENT to update npm, otherwise will be updated on instance init or rebuild
 rm -f /opt/elasticbeanstalk/node-install/npm_updated
 
+/opt/elasticbeanstalk/node-install/node-v$NODE_VER-linux-$ARCH/bin/npm install -g bower
+
 echo $OUT
 
 #make sure node binaries can be found globally
