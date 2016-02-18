@@ -37,6 +37,7 @@ npm install -g phantomjs@">=1.9.6 <2.0.0" --user 'root'
 }
 
 type -P bower  && echo "... found bower, skipping install"   || npm install -g bower@">=1.7.7" --user 'root'
+type -P mean-cli  && echo "... found mean cli, skipping install"   || npm install -g mean-cli@">=0.11.1" --user 'root'
 type -P r.js  && echo "... found r, skipping install"   || npm install -g requirejs@">=2.1.11 <3.0.0" --user 'root'
 type -P jade  && echo "... found jade, skipping install"   || npm install -g jade@">=1.3.1 <2.0.0" --user 'root'
 
